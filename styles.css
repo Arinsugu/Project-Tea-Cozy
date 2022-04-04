@@ -1,0 +1,168 @@
+body {
+  font-family: 'Helvetica', serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: auto;
+}
+
+div.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+img#tealogo  {
+  height: 50px;
+  margin-left: 10px;
+}
+
+ul.breadcrumb {
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: underline;
+}
+
+a.navlink {
+  padding-left: 20px;
+  color: seashell;
+}
+
+a.navlink:hover {
+  color: grey;
+}
+
+a.navlink:active {
+  color: red;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+
+div.mission {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-bottom: 50px;
+}
+
+div.mission-text {
+  background-color: black;
+  width: 100%;
+  max-width: 1200px;
+  padding: 5px;
+}
+
+.mission-text h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.mission-text h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.tea-of-the-month {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.tea-headers {
+  background-color: black;
+  opacity: 0.9;
+  display: block;
+  text-align: center;
+}
+
+.tea-container {
+  margin: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-width: 1000px;
+  text-align:center;
+}
+
+.tea-tea {
+  display: inline-block;
+  height: auto;
+  max-width: 1000px;
+  padding: 0 10px;
+}
+
+.tea-tea img {
+  max-height: 200px;
+  max-width: 300px;
+  margin-bottom: 0px;
+}
+
+.tea-tea h3 {
+  margin-top: 10px;
+}
+
+.location {
+  margin: auto auto;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  background-image: url(img/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.location-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 2;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
+
+.location-box {
+  width: 300px;
+  height: auto;
+  margin: auto 20px;
+  opacity: 1;
+  background-color: black;
+}
+.location-box p, .location-box h3 {
+  align-items: center;
+}
+
+.footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  margin-left: 20px;
+  float: left;
+  text-align: left;
+}
